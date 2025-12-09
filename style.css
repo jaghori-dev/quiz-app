@@ -73,7 +73,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: var(--card);
-    width: 200px;
+    width: 40%;
     height: 60px;
     font-weight: bolder;
 }

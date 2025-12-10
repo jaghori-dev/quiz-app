@@ -1,5 +1,9 @@
 :root{
+  --s:599px;
+  --m:1024px;
+  --l:1440px;
   --bg: #0f1724;
+  --light: #fff;
   --card: #0b1220;
   --text: #e6eef8;
   --muted: #9fb2d1;
@@ -9,6 +13,11 @@
   --shadow: 0 0 8px rgba(0, 0, 0, 0.8),
             0 0 5px rgba(0, 0, 0, 0.8);
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+body:has(#lightmode:checked){
+  --bg: var(--light);
+  --card: var(--light);
+  --text: black;
 }
 *{
     margin: 0;

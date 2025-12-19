@@ -28,3 +28,9 @@
 .bookmark-i {
     color: var(--accent);
 }
+.card button:hover,
+.footer i:hover,
+.card li:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}

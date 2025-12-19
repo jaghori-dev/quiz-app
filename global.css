@@ -21,3 +21,13 @@
     list-style: none;
     text-decoration: none;
 }
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    line-height:1.4;  
+}
+.light {
+    --bg: var(--light);
+  --card: var(--light);
+  --text: black;
+}
